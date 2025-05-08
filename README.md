@@ -7,6 +7,8 @@
 
 Real-time object tracking and counting system using YOLOv8 that monitors vehicle crossings at a virtual detection line.
 
+---
+
 ## Features
 
 - **YOLOv11 Object Detection**: Pre-trained YOLOv11l model for accurate detection
@@ -15,11 +17,15 @@ Real-time object tracking and counting system using YOLOv8 that monitors vehicle
 - **Class-Specific Counting**: Separate counts for different vehicle classes
 - **Visual Feedback**: Bounding boxes, IDs, and real-time counters
 
+---
+
 ## Requirements
 ```
 opencv-python>=4.5.0
 ultralytics>=8.0.0
 ```
+
+---
 
 ## Usage
 1. Place your video file in the project directory
@@ -34,6 +40,8 @@ Untitled.ipynb
   - Press q to quit
 
   - Adjust line_y_red in code to change detection line position
+
+---
 
 ## Supported Classes
 The system tracks these COCO classes by default:
@@ -50,7 +58,7 @@ The system tracks these COCO classes by default:
 
 - Bicycles
 
-===
+---
 
 ## License
 MIT License
